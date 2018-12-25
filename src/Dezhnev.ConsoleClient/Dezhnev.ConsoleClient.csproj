@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<AssemblyName>DezhnevCmd</AssemblyName>
+		<TargetFrameworks>net45;netcoreapp2.1</TargetFrameworks>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="System.Net.Http" Condition="'$(TargetFramework)' == 'net45'" />
+	</ItemGroup>
+
+</Project>
