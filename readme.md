@@ -5,5 +5,6 @@ the player route.
 
 ## Roadmap ##
 * [x] Download stars around player position from EDSM
+* [ ] Users manual (RU/EN)
 * [ ] Automatically place ImportStars.txt in the player's folder
 * [ ] Download stars along the player route, and import them in game
